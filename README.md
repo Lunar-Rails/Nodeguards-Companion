@@ -1,6 +1,6 @@
 # Nodeguard's Companion
 
-The Nodeguard-Signer-Extension is a browser extension that allows you to load your existing Bitcoin wallets and sign operations by generating a PSBT.
+NodeGuard Companion is a browser extension that allows you to load your existing Bitcoin wallets and sign operations by generating a PSBT.
 
 
 ## 🧩 Compatibility
@@ -16,12 +16,12 @@ To build the extension locally you need to have the following tools installed:
 
 Clone this repository:
 ```sh
-git clone https://github.com/Elenpay/Nodeguard-Signer-Extension.git
+git clone https://github.com/Lunar-Rails/Nodeguards-Companion.git
 ```
 
 To install the dependencies you will have to run:
 ```sh
-just install-depenencies
+just install-dependencies
 ```
 This will build the necessary docker containers for building the extension.
 
@@ -46,7 +46,7 @@ Open the Extension Management page by navigating to [Extensions](chrome://extens
 #### Firefox
 Open the Add-ons page by navigating to [Addons](about:addons). Click the settings gear icon and select "Debug Add-ons". Click the "Load Temporary Add-on" button and select the `manifest.json` file inside the `dist` directory of the cloned repository.
 
-Once the extension is successfully installed you should be able to open it. Its name is PSBT Signer
+Once the extension is successfully installed you should be able to open it. Its name is NodeGuard Companion
 ## 🚀 Usage
 
 1. As soon as you open the extension it will ask you to set up a password. The Signer will prompt you to enter this password for any future operation
@@ -62,7 +62,7 @@ add the resulting PSBT to the correspondent text area in your browser. If you ar
 
 # 🤝 Contributing
 
-  If you'd like to contribute to the Nodeguard-Remote-Signer, please fork
+  If you'd like to contribute to NodeGuard Companion, please fork
   the repository and submit a pull request with your changes. We welcome
   contributions of all kinds, including bug fixes, new features, and
   documentation improvements.  
